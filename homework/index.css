@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.Header{
+    padding: 10px;
+    height: 90px;
+
+}
+.Header-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Header-ul{
+    display: flex;
+    gap: 20px
+    ;
+
+}
+.Header-p{
+    font-size: 15px;
+}
+main{
+    margin-top: 100px;
+}
+
+.Section-img{
+ height: 200px;
+ width: 200px;
+}
