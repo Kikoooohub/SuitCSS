@@ -1,32 +1,60 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
-.Header{
-    padding: 10px;
+
+.Header {
+    padding: 20px;
     height: 90px;
 
 }
-.Header-nav{
+
+.Header-nav {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.Header-ul{
+
+.Header-ul {
     display: flex;
     gap: 20px;
+    list-style: none;
+    color: black;
 
 }
-.Header-p{
+
+.Header-li {
+    color: black;
+}
+
+.Header-p {
     font-size: 15px;
 }
-main{
+
+main {
     margin-top: 100px;
+    padding: 20px;
 }
 
-.Section-img{
- height: 200px;
- width: 200px;
+.Section-img {
+    height: 200px;
+    width: 200px;
+}
+
+.Footer {
+    padding: 20px;
+   
+}
+.Footer-ul{
+    display: flex;
+justify-content: space-between;
+
+
+}
+.Footer-li{
+    display:flex;
+    just
+
 }
