@@ -20,51 +20,64 @@
 .Header-ul {
     display: flex;
     gap: 20px;
-  list-style: none;
+    list-style: none;
     color: black;
 
 }
-.Header-ul-a{
+
+.Header-ul-a {
     color: black;
 }
 
 .Header-p {
     font-size: 15px;
 }
-.Header-a{
-    color:black;
+
+.Header-a {
+    color: black;
     text-decoration: none;
 }
 
-main {
+.Main {
+    display: flex;
     margin-top: 100px;
-  
-  padding: 20px;
+    justify-content: center;
+    padding: 20px;
 }
-.Section{
-    
+
+.h2 {
+    padding-left: 20px;
+}
+
+.Section {
+   
     display: grid;
-    grid-template-columns: 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 5px;
 }
 
 .Section-img {
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
+
 }
-.Controller{
+.Section-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Controller {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
-.Button{
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 .Footer {
     padding: 20px;
+    margin: 10px;
 
 }
 
@@ -72,21 +85,23 @@ main {
     display: flex;
     justify-content: end;
     gap: 5px;
-    
+
 
 }
 
 .Footer-li {
     display: flex;
-    
+    justify-content: end;
+
 }
 
 .Footer-p {
     display: flex;
-    
-    
+
+
 }
-.Footer-a{
-    color:black;
+
+.Footer-a {
+    color: black;
     text-decoration: none;
 }
