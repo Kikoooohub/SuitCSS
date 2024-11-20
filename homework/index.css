@@ -25,8 +25,12 @@
 
 }
 
+
+
+
 .Header-ul-a {
     color: black;
+    font-weight: 1000;
 }
 
 .Header-p {
@@ -36,11 +40,13 @@
 .Header-a {
     color: black;
     text-decoration: none;
+    font-weight: 1000;
 }
 
 .Main {
+
     display: flex;
-    margin-top: 100px;
+    align-items: center;
     justify-content: center;
     padding: 20px;
 }
@@ -50,11 +56,12 @@
 }
 
 .Section {
-   
+
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 300px 300px 300px;
-    gap: 5px;
+    gap: 10px;
+    
 }
 
 .Section-img {
@@ -62,7 +69,8 @@
     width: 100%;
 
 }
-.Section-p{
+
+.Section-p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,6 +100,7 @@
 .Footer-li {
     display: flex;
     justify-content: end;
+    font-weight: 500;
 
 }
 
@@ -104,4 +113,5 @@
 .Footer-a {
     color: black;
     text-decoration: none;
+    font-weight: 600;
 }
