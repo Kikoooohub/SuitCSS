@@ -25,7 +25,13 @@
 
 }
 
+Button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
+
+}
 
 
 .Header-ul-a {
@@ -60,8 +66,12 @@
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 300px 300px 300px;
-    gap: 10px;
+    gap: 90px;
+    padding: 20px;
     
+    
+
+
 }
 
 .Section-img {
@@ -70,11 +80,8 @@
 
 }
 
-.Section-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
 
 .Controller {
     display: flex;
